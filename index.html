@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 style="padding: 1rem">Vyhľadávanie</h1>
+    <div class="mainSection">
+      <div class="bal-container" id="search">
+        <div class="bal-after">
+          <img src="./koa/search/after.png" />
+          <div class="bal-afterPosition afterLabel">Teraz</div>
+        </div>
+        <div class="bal-before">
+          <div class="bal-before-inset">
+            <img src="./koa/search/before.png" />
+            <div class="bal-beforePosition beforeLabel">Predtým</div>
+          </div>
+        </div>
+        <div class="bal-handle">
+          <span class="handle-left-arrow"></span>
+          <span class="handle-right-arrow"></span>
+        </div>
+      </div>
+    </div>
+
+    <h1 style="padding: 1rem">Úvod</h1>
+    <div class="mainSection">
+      <div class="bal-container" id="home">
+        <div class="bal-after">
+          <img src="./koa/home/after.png" />
+          <div class="bal-afterPosition afterLabel">Teraz</div>
+        </div>
+        <div class="bal-before">
+          <div class="bal-before-inset">
+            <img src="./koa/home/before.png" />
+            <div class="bal-beforePosition beforeLabel">Predtým</div>
+          </div>
+        </div>
+        <div class="bal-handle">
+          <span class="handle-left-arrow"></span>
+          <span class="handle-right-arrow"></span>
+        </div>
+      </div>
+    </div>
+
+    <h1 style="padding: 1rem">Kalendár</h1>
+    <div class="mainSection">
+      <div class="bal-container" id="calendar">
+        <div class="bal-after">
+          <img src="./koa/calendar/after.png" />
+          <div class="bal-afterPosition afterLabel">Teraz</div>
+        </div>
+        <div class="bal-before">
+          <div class="bal-before-inset">
+            <img src="./koa/calendar/before.png" />
+            <div class="bal-beforePosition beforeLabel">Predtým</div>
+          </div>
+        </div>
+        <div class="bal-handle">
+          <span class="handle-left-arrow"></span>
+          <span class="handle-right-arrow"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script>
+      new BeforeAfter("#calendar");
+      new BeforeAfter("#home");
+      new BeforeAfter("#search");
+    </script>
+  </body>
+</html>
