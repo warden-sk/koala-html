@@ -129,11 +129,11 @@ h1 {
   top: 50%;
   margin-left: -20px;
   margin-top: -21px;
-  border: 2px solid #fff;
+  background-color: #fff;
+  border: 2px solid #000;
   border-radius: 1000px;
   z-index: 20;
   pointer-events: none;
-  box-shadow: 0 0 10px rgb(12, 12, 12);
 }
 
 .handle-left-arrow,
@@ -147,13 +147,13 @@ h1 {
 }
 
 .handle-left-arrow {
-  border-right: 6px solid #fff;
+  border-right: 6px solid #000;
   left: 50%;
   margin-left: -17px;
 }
 
 .handle-right-arrow {
-  border-left: 6px solid #fff;
+  border-left: 6px solid #000;
   right: 50%;
   margin-right: -17px;
 }
@@ -161,13 +161,11 @@ h1 {
 .bal-handle::before {
   bottom: 50%;
   margin-bottom: 20px;
-  box-shadow: 0 0 10px rgb(12, 12, 12);
 }
 
 .bal-handle::after {
   top: 50%;
   margin-top: 20.5px;
-  box-shadow: 0 0 5px rgb(12, 12, 12);
 }
 
 .bal-handle::before,
@@ -175,7 +173,7 @@ h1 {
   content: " ";
   display: block;
   width: 2px;
-  background: #fff;
+  background: #000;
   height: 9999px;
   position: absolute;
   left: 50%;
